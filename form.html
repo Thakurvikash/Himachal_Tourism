@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html>
+    <title>Registration Form</title>
+<head>
+    <meta charset='utf-8'>
+    <meta http-equiv='X-UA-Compatible' content='IE=edge'>
+    <title>Page Title</title>
+    <meta name='viewport' content='width=device-width, initial-scale=1'>
+    <link rel='stylesheet' type='text/css' media='screen' href='main.css'>
+    <script src='main.js'></script>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+    <link rel="stylesheet" type="text/css"href="css/bootstrap.css">
+    <!-- Latest compiled and minified CSS -->
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+
+<!-- jQuery library -->
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+
+<!-- Latest compiled JavaScript -->
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+
+</head>
+<body style="background-color:rgb(38, 221, 151);padding:15px;margin:40px;width:inherit;">
+    <div class="container">
+        <div class="row col-md-8 col-md-offset-5"  style="width:200;">
+            <div class="panel panel-primary">
+                <div class="panel-heading text-center">
+                   Registration Form 
+                </div>
+
+                        <div class=" panel-body">
+                          <form action="connectt.php" method="POST">
+                              <div class="form-group">
+                                  <label for="firstName">First Name</label>
+                                  <input type="text" class="form-control" id="firstName"name="firstName"  />
+                              </div>
+                              <div class="form-group">
+                                <label for="lastName">Last Name</label>
+                                <input type="text" class="form-control" id="LastName"name="lastName" />
+                            </div>  
+                          
+                            <div class="form-group">
+                                <label for="gender">Gender</label>
+                               <div>
+                                <label for="male"class="radio-inline"> <input type="radio"name="gender"val="m" id="male">Male </label>
+                                <label for="Female"class="radio-inline"> <input type="radio"name="gender" val="f" id="Female">Female </label>
+                                <label for="others"class="radio-inline"> <input type="radio"name="gender"val="o" id="others">Others </label>
+                              </div>
+                            </div>
+                            <div class="form-group">
+                                <label for="Email">Email</label>
+                                <input type="text" class="form-control" id="Email"name="email" />
+                            </div>
+                            <div class="form-group">
+                                <label for="password">Password</label>
+                                <input type="text" class="form-control" id="password"name="password" />
+                            </div>
+                            <div class="form-group">
+                                <label for="number">Phone Number</label>
+                                <input type="text" class="form-control" id="number" name="number" />
+                            </div>
+                            <div class="form-group">
+                                <label for="anumber">Adhar  Number</label>
+                                <input type="text" class="form-control" id="anumber" name="anumber" />
+                            </div>
+                            <input type="submit"value="Submit" class="btn btn-primary">
+                           <a href="final one.html" ><input type="#"id="login_btn"value="Back" class="btn btn-primary"></a>
+                          </form>
+                        </div>
+                        <div class="panel-footer text-right">
+                            <small >&copy; Himachal pradesh</small>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+ 
+
+</body>
+</html>
